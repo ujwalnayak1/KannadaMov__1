@@ -41,13 +41,13 @@ async def start(client, message):
         buttons = [[
             InlineKeyboardButton('⚚ ΛᎠᎠ MΞ ϮԾ YԾUᏒ GᏒԾUᎮ ⚚', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
             ],[
-            InlineKeyboardButton('💠 GᏒԾUᎮ 💠', url='https://t.me/+M6GjlZxHrIwyYzI1'),
-            InlineKeyboardButton('💠 UᎮDΛTΞS 💠', url='https://t.me/New_movies_download12')
+            InlineKeyboardButton('💠 GᏒԾUᎮ 💠', url='https://t.me/BSHEGDE'),
+            InlineKeyboardButton('💠 UᎮDΛTΞS 💠', url='https://t.me/BSHEGDE')
             ],[      
             InlineKeyboardButton('♻️ HΞLᎮ ♻️', callback_data='help'),
             InlineKeyboardButton('♻️ ΛBOUT ♻️', callback_data='about')
             ],[
-            InlineKeyboardButton('✅ SUBSCᏒIBΞ  ✅', url='https://youtube.com/channel/UCjXAdU8aMQLvHsRsO5tluAA')
+            InlineKeyboardButton('✅ SUBSCᏒIBΞ  ✅', url='https://t.me/BSHEGDE')
         ]]        
         reply_markup = InlineKeyboardMarkup(buttons)        
         await message.reply_chat_action("Typing")
@@ -88,13 +88,13 @@ async def start(client, message):
         buttons = [[
             InlineKeyboardButton('⚚ ΛᎠᎠ MΞ ϮԾ YԾUᏒ GᏒԾUᎮ ⚚', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
             ],[
-            InlineKeyboardButton('💠 CHΛИИΞL 💠', url='https://t.me/New_movies_download12'),
-            InlineKeyboardButton('💠 UᎮDΛTΞS 💠', url='https://t.me/New_movies_download12')
+            InlineKeyboardButton('💠 CHΛИИΞL 💠', url='https://t.me/BSHEGDE'),
+            InlineKeyboardButton('💠 UᎮDΛTΞS 💠', url='https://t.me/BSHEGDE')
             ],[      
             InlineKeyboardButton('♻️ HΞLᎮ ♻️', callback_data='help'),
             InlineKeyboardButton('♻️ ΛBOUT ♻️', callback_data='about')
             ],[
-            InlineKeyboardButton('✅ SUBSCᏒIBΞ  ✅', url='https://youtube.com/channel/UCjXAdU8aMQLvHsRsO5tluAA')
+            InlineKeyboardButton('✅ SUBSCᏒIBΞ  ✅', url='https://t.me/BSHEGDE')
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await message.reply_chat_action("Typing")
