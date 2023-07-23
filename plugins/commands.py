@@ -41,13 +41,13 @@ async def start(client, message):
         buttons = [[
             InlineKeyboardButton('⚚ ΛᎠᎠ MΞ ϮԾ YԾUᏒ GᏒԾUᎮ ⚚', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
             ],[
-            InlineKeyboardButton('💠 GᏒԾUᎮ 💠', url='https://t.me/BSHEGDE'),
-            InlineKeyboardButton('💠 UᎮDΛTΞS 💠', url='https://t.me/BSHEGDE')
+            InlineKeyboardButton('💠 GᏒԾUᎮ 💠', url='https://t.me/Movies_Kannada_1'),
+            InlineKeyboardButton('💠 UᎮDΛTΞS 💠', url='@HK_telegraph_BOT')
             ],[      
             InlineKeyboardButton('♻️ HΞLᎮ ♻️', callback_data='help'),
             InlineKeyboardButton('♻️ ΛBOUT ♻️', callback_data='about')
             ],[
-            InlineKeyboardButton('✅ SUBSCᏒIBΞ  ✅', url='https://t.me/BSHEGDE')
+            InlineKeyboardButton('✅ SUBSCᏒIBΞ  ✅', url='https://t.me/Movies_Kannada_1')
         ]]        
         reply_markup = InlineKeyboardMarkup(buttons)        
         await message.reply_chat_action("Typing")
@@ -88,13 +88,13 @@ async def start(client, message):
         buttons = [[
             InlineKeyboardButton('⚚ ΛᎠᎠ MΞ ϮԾ YԾUᏒ GᏒԾUᎮ ⚚', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
             ],[
-            InlineKeyboardButton('💠 CHΛИИΞL 💠', url='https://t.me/BSHEGDE'),
-            InlineKeyboardButton('💠 UᎮDΛTΞS 💠', url='https://t.me/BSHEGDE')
+            InlineKeyboardButton('💠 CHΛИИΞL 💠', url='https://t.me/Movies_Kannada_1'),
+            InlineKeyboardButton('💠 UᎮDΛTΞS 💠', url='https://t.me/Movies_Kannada_1')
             ],[      
             InlineKeyboardButton('♻️ HΞLᎮ ♻️', callback_data='help'),
             InlineKeyboardButton('♻️ ΛBOUT ♻️', callback_data='about')
             ],[
-            InlineKeyboardButton('✅ SUBSCᏒIBΞ  ✅', url='https://t.me/BSHEGDE')
+            InlineKeyboardButton('✅ SUBSCᏒIBΞ  ✅', url='https://t.me/Movies_Kannada_1')
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await message.reply_chat_action("Typing")
